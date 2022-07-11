@@ -1,0 +1,293 @@
+body{
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.tituloindice {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 5px;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* css do indice no topo da tela*/
+nav {
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+nav li {
+    margin: 0 5px;
+    color: black; 
+    display:inline;
+}
+
+nav a{
+    color:black; 
+    text-decoration: none;   
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li :hover{
+    color: rgb(112, 11, 87);
+}
+
+nav li :active{
+    color: thistle;
+}
+
+.titulo {
+    background-color: thistle;
+    color:black;
+    position: relative;
+    font-size:22px;
+    padding: 20px 0;
+    border-radius: 20px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+header {
+    margin: 70px 0;
+}
+
+
+/* css da página de cardápio */
+
+.produtos{
+    margin: 0 auto;
+    padding: 5px;
+}
+ 
+.produtos li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+    height: auto;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing:border-box;
+    border: 5px solid thistle;
+    border-radius: 20px; 
+}
+
+.produtos li:hover {
+    border: 5px solid rgb(112, 11, 87); 
+}
+
+.produtos h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.produtos li:hover h2 {
+    font-size: 25px; 
+}
+ 
+.produtos li:active {
+    border: 5px solid white; 
+}
+
+.produto-descricao {
+    font-size: 16px;
+}
+ 
+.produto-preco {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.imagens-cardapio {
+    width: 20px;
+    margin: 0 20px 20px 0;
+}
+
+
+/* css da página de contatos */
+
+
+form {
+    margin: 40px 40px;
+}
+
+form label, form legend {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0px;
+}
+
+.enviar {
+    background-color: purple;
+    color: white;
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s background;
+}
+.enviar:hover {
+    background-color:violet;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 150px;
+}
+
+caption {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+thead {
+    background-color:thistle;
+    color: black;
+    font-weight: bold;
+}
+
+td, th {
+    border: black solid 1px;
+    padding: 5px 15px;
+}
+
+/* css da página inicial */
+
+.banner {
+    width: 100%;
+}
+
+.indice {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tituloPrincipalIndice {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.sobreDoceria-paragrafo {
+    background: linear-gradient(gray,#fefefe);
+}
+
+.sobreDoceria {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.sobreDoceria p {
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.sobreDoceria p:before {
+    content: "🖤";
+}
+
+
+.sobreDoceria strong {
+    font-weight: bold;
+}
+
+.sobreDoceria em {
+    font-style: italic;
+}
+
+.bolochocolate {
+    width: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, gray); 
+}
+
+.conteudo-mapa {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background-color: gray;
+}
+
+.conteudo-beneficios {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.itens {
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.itens:nth-child(3n) {
+    font-weight:bold;
+}
+
+.lista-beneficios{
+    width: 50%;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.imagem-beneficios {
+    width: 20%;
+    margin: 0 20px 20px 0;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+/* css do rodapé */
+
+footer {
+    text-align: center;
+    background-color:thistle;
+    padding: 20px 0;
+    margin: 0 0 0 0;
+}
+
+.copyright {
+    color: black;
+    font-size: 20px;
+}
+
